@@ -1,0 +1,63 @@
+.errorScreen__body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+}
+
+.error-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-title {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.error-message {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  line-height: 1.5;
+}
+
+.error-button {
+  display: block;
+  padding: 1rem 3rem;
+  border: none;
+  background-color: #e50914;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.error-button:hover {
+  background-color: #b9000c;
+}
+
+@media (max-width: 768px) {
+  .error-title {
+    font-size: 4rem;
+  }
+
+  .error-message {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .error-button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+}
