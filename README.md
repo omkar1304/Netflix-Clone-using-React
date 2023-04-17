@@ -1,3 +1,5 @@
+![Netflix Clone](./banner.png)
+
 # Netflix Clone
 
 This project is a clone of the popular streaming platform, Netflix, built using React and React-Redux for the frontend, and Google Firebase Store for the backend. The platform also utilizes the TMDB API for fetching the latest and popular movies and shows, and Stripe payment API for secure and efficient payment transactions.
