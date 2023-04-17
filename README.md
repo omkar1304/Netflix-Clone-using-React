@@ -9,9 +9,6 @@ The project is hosted on Netlify and can be accessed using the following link - 
 ## Features
 
 - User authentication and authorization
-- Ability to browse and search for movies and TV shows
-- Ability to add movies and TV shows to a personal watchlist
-- Ability to play movie trailers
 - Stripe payment integration for subscription-based access
 - User-friendly and intuitive interface
 
@@ -29,5 +26,16 @@ The following technologies were used in the development of this project:
 
 To run this project on your local machine, follow the instructions below:
 
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/omkar1304/Netflix-Clone-using-React.git
 
+2. Navigate to the project directory: cd Netflix-Clone-using-React
+
+3. Install dependencies: npm install
+
+4. Start the development server: npm start
+
+5. The project should now be running on http://localhost:3000
+
+## Conclusion
+
+The Netflix clone project demonstrates proficiency in React and Redux for the frontend, Google Firebase Store for the backend, and Stripe API for payment integration. The project delivers an intuitive and user-friendly experience to meet diverse user needs.
